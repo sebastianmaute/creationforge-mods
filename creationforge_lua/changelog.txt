@@ -1,0 +1,53 @@
+Update 22 Jun 2026 @ 6:53pm
+LUA
+
+Update: 8 Feb 2026 @ 2:15pm
+Fixes. Removed compatibility sections for now
+
+Update: 10 Jan @ 7:14pm
+Added dolomite, training weapons, obsidian short sword, wood crossbow, platinum warhammer, papyrus. More bulk reactions. Swapped dragon scale armor for unicorn leather armor. Refactoring and minor fixes. Fixed Training Forge shifting. Mod now contains prepared compatibility code for ease of adaptation to Dark Ages V, The Aeramore Expansion and New Genesis (Volume II)
+
+Update: 5 Jan @ 10:20am
+Fixed eggs reaction. Added papaya, candlenut, willow, cherry, cacao, chestnut, saguaro, ginkgo, rubber, highwood, pine, durian, mango, avocado, maple, carambola, tea, walnut, cedar, larch, pomelo, acacia, ash, mahogany, pear, rambutan, birch, palm, citron, oak, almond, lychee
+
+Update: 3 Jan @ 6:40am
+Added minecart water, cassiterite, fire clay, crystal glass windows, leather hoods, silk cloth hoods, silk cloth clothing set, leather clothing set, dragon scale clothing set, leather armor, leather armor set, iron armor set, adamantine armor set, steel armor set, bookcases, pedestals, display cases, crystal glass trap components. Fixed wrong cut gem item token. Moved some categories. More bulk reactions. Removed gauntlets for the final time cos the reaction is bugged.
+
+Update: 1 Jan @ 8:38am
+Fixed chair reaction (made 10, should be 1). Fixed wrong reaction token for CUTGEMS (was ROUGH). Added water to minecart reaction. Removed gauntlets cos then using a custom reaction it is still bugged and will not produce equipable items
+
+Update: 30 Dec @ 10:25am
+Training of skills and attributes increased times one hundred. New building training forge. Moved skill training to training forge. Workshops will use proper graphics now. Introduced enforcing of load order rules. Cleaned up and fixed raws using DF Raw Language Server. Moved reactions into submenues. Removed mussels. Added alternative materials to existing reactions (ie. steel, iron, cow leather, adamantine, crystal glass, marble). Added crab, wheelbarrow, bins, statues, coffins, caskets, sarcophagus, grates, hatch covers, floodgates, ballista parts, catapult parts, ballista arrow heads, menacing spikes, large serrated discs, spiked balls, enormous corkscrews, giant axe blades, slabs, mechanisms, alunite, basalt, chert, petrified wood, olivine, microcline, cobaltite, kimberlite, pitchblende. Added info about colorization. Added cut gems reaction.
+
+Update: 27 Dec @ 11:54am
+Fixed creation of aluminum bars. It is now possible to train all skills. Grouped skills into labor, social, combat and other. Workshop can now be constructed for free. Fixed parchment, quire, sheet reactions
+
+Update: 23 Dec @ 7:54am
+Added writing materials
+
+Update: 16 Dec @ 10:24pm
+Bugfixed the missing permitted reaction token. Disabled gloves creation for the time being.
+
+Update: 16 Dec @ 4:52pm
+Added bulk creation of feather wood beds, tables, chairs, cabinets, armorstand, weaponrack, silk clothes, leather clothes, adamantine armor, dragon scale armor, weapons
+
+Update: 16 Dec @ 6:49am
+Fixed plump helmets creation
+
+Update: 15 Dec @ 2:05pm
+Grouped creatables into categories. Added more reactions. More bulk creation options. It is now possible to train skills.
+
+Update: 12 Dec @ 8:59am
+Build blocks in bulk. Added wax, honey, cotton, olive oil, collection of plants for dyes, jugs
+
+Update: 11 Dec @ 10:18am
+Added option to build blocks directly from ores and bars from metals and alloys where applicable. Added quicklime, milk of lime, rum, ale, beer, wine, sunshine, lye, crossbow, bolts, cloth, dragon leather, plant thread, bulk barrels, boxes, bags, buckets. Spoilable products now go into containers in units of 10 each
+
+Update: 10 Dec @ 12:45pm
+Added alloys, mussels, cremate remains
+
+Update: 10 Dec @ 11:14am
+Added wool, potash, box, bucket, barrel, bag, clutch, splint, cage, chain, anvil, backpack, waterskin, vial, lobster, turtle, cave fish, dragon blood, ichor, poison, milk, cheese, axe, pick
+
+Posted: 6 Dec @ 8:01pm
+Initial upload

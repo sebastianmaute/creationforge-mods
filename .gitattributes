@@ -1,0 +1,11 @@
+# Normalize text line endings; silence CRLF warnings on Windows.
+* text=auto
+
+# Keep LF on scripts DF/Lua reads and shell/PowerShell tooling.
+*.lua   text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.ps1   text eol=lf
+
+# Binary assets — never touch.
+*.png   binary

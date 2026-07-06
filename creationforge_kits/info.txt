@@ -1,0 +1,19 @@
+[ID:creationforge_kits]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Nevarion]
+[NAME:The Creation Forge - Starter Kits]
+[DESCRIPTION:Add-on for The Creation Forge. Adds one-click bundle reactions (basic, military, craft) that conjure a whole kit of items in a single job. Requires The Creation Forge and loads after it.]
+
+[STEAM_TITLE:The Creation Forge - Starter Kits]
+[STEAM_TAG:mod]
+[STEAM_TAG:cheat]
+[STEAM_CHANGELOG:Initial release]
+[STEAM_KEY_VALUE_TAG:mod:cheat]
+
+[REQUIRES_ID:creationforge]
+[REQUIRES_ID_BEFORE_ME:creationforge]
+
+[STEAM_FILE_ID:3758436545]

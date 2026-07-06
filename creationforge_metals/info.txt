@@ -1,0 +1,19 @@
+[ID:creationforge_metals]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Nevarion]
+[NAME:The Creation Forge - Fantasy Metals]
+[DESCRIPTION:Add-on for The Creation Forge. Adds custom weapon/armor-grade metals (mithril, orichalcum, dragonsteel, meteoric iron, cold iron) with reactions to smelt bars and forge gear at the Creation Forge. Requires The Creation Forge and loads after it.]
+
+[STEAM_TITLE:The Creation Forge - Fantasy Metals]
+[STEAM_TAG:mod]
+[STEAM_TAG:cheat]
+[STEAM_CHANGELOG:Initial release]
+[STEAM_KEY_VALUE_TAG:mod:cheat]
+
+[REQUIRES_ID:creationforge]
+[REQUIRES_ID_BEFORE_ME:creationforge]
+
+[STEAM_FILE_ID:3758434646]

@@ -1,0 +1,10 @@
+# DF runtime output (written into the game dir, never source)
+lualog.txt
+errorlog.txt
+
+# OS / editor junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
