@@ -21,9 +21,16 @@ Design notes
 
 Add-on pattern
 --------------
-Ships only scripts. Reactions use [BUILDING:CREATION_FORGE:NONE] + [FORTRESS_MODE_ENABLED]; items
-registered via raws.register_items. Ids namespaced CFM_. Declares its own submenus (Exotic weapons /
-Exotic armor) rather than reusing the base WEAPONS/ARMOR menus.
+Ships scripts plus an item-graphics pack. Reactions use [BUILDING:CREATION_FORGE:NONE] +
+[FORTRESS_MODE_ENABLED]; items registered via raws.register_items. Ids namespaced CFM_. Declares its
+own submenus (Exotic weapons / Exotic armor) rather than reusing the base WEAPONS/ARMOR menus.
+
+Item graphics (v1.1): custom item subtypes need WEAPON_GRAPHICS / ARMOR_GRAPHICS / HELM_GRAPHICS /
+SHIELD_GRAPHICS entries or DF renders them with no sprite - that is exactly what looked like a "graphic
+bug" when forging at the Creation Forge (the vanilla forge produces vanilla subtypes, which already have
+sprites). graphics/ ships a 4x4 tile page (images/cfm_items.png, 32x32, greyscale so DF tints by material
+- adamantine reads pale, steel grey) and graphics_creationforge_military.txt maps every CFM_ subtype to a
+tile. Item graphics can't be Lua-generated (like buildings), so they ship as static raws.
 
 Testing - loads clean in-game (2026-06)
 ---------------------------------------
