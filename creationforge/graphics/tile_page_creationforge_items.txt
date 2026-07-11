@@ -1,0 +1,8 @@
+tile_page_creationforge_items
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:CF_ITEMS]
+	[FILE:images/cf_items.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:32]

@@ -1,0 +1,8 @@
+tile_page_creationforge_toys
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:CFY_ITEMS]
+	[FILE:images/cfy_items.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:64]

@@ -1,6 +1,6 @@
 [ID:creationforge]
-[NUMERIC_VERSION:6]
-[DISPLAYED_VERSION:60]
+[NUMERIC_VERSION:7]
+[DISPLAYED_VERSION:70]
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:6]
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:60]
 [AUTHOR:Nevarion]
@@ -10,7 +10,7 @@
 [STEAM_TITLE:The Creation Forge]
 [STEAM_TAG:mod]
 [STEAM_TAG:cheat]
-[STEAM_CHANGELOG:Fixed chicken egg reaction (Thanks PhPhoenix!). Building the workshops requires a buildmat again (per request). Fixed versioning in info.txt (Thanks ^ban^!). Added jet, animal traps, rope, more bulk reactions.]
+[STEAM_CHANGELOG:Add sprites for the custom bowl and plate tools (they rendered as a CP437 glyph on the graphical tileset). No recipe changes.]
 [STEAM_KEY_VALUE_TAG:mod:cheat]
 
 [REQUIRES_ID:vanilla_entities]

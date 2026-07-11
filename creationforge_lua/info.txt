@@ -1,6 +1,6 @@
 [ID:creationforge]
-[NUMERIC_VERSION:7]
-[DISPLAYED_VERSION:70]
+[NUMERIC_VERSION:8]
+[DISPLAYED_VERSION:80]
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:6]
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:60]
 [AUTHOR:Nevarion]
@@ -10,7 +10,7 @@
 [STEAM_TITLE:The Creation Forge]
 [STEAM_TAG:mod]
 [STEAM_TAG:cheat]
-[STEAM_CHANGELOG:Full Lua rewrite for DF v52+ - reactions are now generated at worldgen with FORTRESS_MODE_ENABLED, so they work for any civilization with no 22k-line entity permit patch. Fixed 3 duplicate-id reactions. Added copper/bronze/bismuth bronze full gear and silver blunt weapons; leather and dragon scale socks plus dragon scale hood/helm/leggings; drinking vessels (mugs/cups/goblets); and custom bowls and plates. 1104 reactions total.]
+[STEAM_CHANGELOG:Add sprites for the custom bowl and plate tools (they rendered as a CP437 glyph on the graphical tileset). No recipe changes.]
 [STEAM_KEY_VALUE_TAG:mod:cheat]
 [STEAM_FILE_ID:2898393468]
 

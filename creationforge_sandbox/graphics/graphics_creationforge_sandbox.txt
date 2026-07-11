@@ -1,0 +1,9 @@
+graphics_creationforge_sandbox
+
+[OBJECT:GRAPHICS]
+
+# Sprites for the custom ITEM_TOOL mega-containers in scripts/cf_sandbox.lua. Greyscale on tile
+# page CFS_ITEMS (2x1 grid, 32x32); DF tints by material. TOOL_GRAPHICS: PAGE:col:row:SUBTYPE.
+
+[TOOL_GRAPHICS:CFS_ITEMS:0:0:CFS_TOOL_VAULT]
+[TOOL_GRAPHICS:CFS_ITEMS:1:0:CFS_TOOL_CISTERN]
