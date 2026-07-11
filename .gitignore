@@ -8,3 +8,6 @@ Desktop.ini
 .DS_Store
 *.swp
 *~
+
+# build artifacts / packaged uploads
+*.zip
