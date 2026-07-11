@@ -1,8 +1,9 @@
 -- cf_addon.lua — TEMPLATE for a Creation Forge add-on pack.
 --
 -- Copy this folder, rename it + the [ID] in info.txt + this file (and the require in init.lua),
--- then fill in your items/reactions below. An add-on ships ONLY scripts — no building, graphics,
--- or entity files. The base "The Creation Forge" mod (loaded first via REQUIRES_ID) provides those.
+-- then fill in your reactions below. An add-on needs no building or entity files — the base
+-- "The Creation Forge" mod (loaded first via REQUIRES_ID) provides those. Reactions are Lua;
+-- custom ITEMS that need a sprite must be STATIC raws + graphics files (see the item note below).
 --
 -- CONTRACT provided by the base (safe to reference):
 --   building ids : CREATION_FORGE, TRAINING_FORGE
@@ -17,15 +18,14 @@
 --     [CATEGORY_NAME:...] and optionally [CATEGORY_PARENT:...] on its first use.
 
 do_once.cf_addon = function()   -- <-- rename to cf_<pack>
-	-- Optional: custom item definitions (items are Lua-generatable; instruments are not).
-	-- local items = {}
-	-- local function itemdef(id, body)
-	-- 	items[#items+1] = "[ITEM_TOOL:" .. id .. "]"
-	-- 	add_generated_info(items)
-	-- 	for _, l in ipairs(body) do items[#items+1] = l end
-	-- end
-	-- itemdef("CFX_TOOL_EXAMPLE", { "[NAME:example:examples]", "[VALUE:5]", "[TILE:7]", "[SIZE:100]", "[HARD_MAT]" })
-	-- raws.register_items(items)
+	-- Custom items: DO NOT use raws.register_items if the item needs a sprite. Lua-registered items
+	-- exist only inside a generated world, so DF's launch-time graphics loader can't bind a sprite to
+	-- them -> "Unknown ... graphics token" in errorlog and a blank tile. Define custom item subtypes as
+	-- STATIC raws instead (this is what the shipped packs do, e.g. creationforge_military):
+	--   objects/item_<pack>.txt      -- first line = filename, then [OBJECT:ITEM], then [ITEM_TOOL:CFX_...] etc.
+	--   graphics/tile_page_<pack>.txt + graphics/graphics_<pack>.txt  -- greyscale tile page + one entry per subtype
+	-- Reactions below (Lua) still reference those static item ids. Prefer reusing a vanilla item subtype
+	-- when one exists (free sprite + stats). register_items is fine ONLY for items you never need to graphic.
 
 	-- Reactions on the base workshop.
 	local out = {}

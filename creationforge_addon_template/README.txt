@@ -20,11 +20,23 @@ The contract (what the base guarantees)
 Reference these by id. Namespace your own ids (CFX_...). Put [FORTRESS_MODE_ENABLED] on every
 reaction so no entity permit is needed.
 
+Custom items that need a sprite
+-------------------------------
+DO NOT define them with Lua raws.register_items. Lua-registered items exist only inside a
+generated world, so DF's launch-time graphics loader can't bind a sprite to them (errorlog:
+"Unknown ... graphics token"; the item renders blank). Define custom item subtypes as STATIC raws:
+- objects/item_<pack>.txt      : first line = filename, then [OBJECT:ITEM], then [ITEM_TOOL:CFX_...] etc.
+- graphics/tile_page_<pack>.txt : [TILE_PAGE:ID] + [FILE:images/x.png] + [TILE_DIM:32:32] + [PAGE_DIM_PIXELS:w:h]
+- graphics/graphics_<pack>.txt  : one *_GRAPHICS entry per subtype (greyscale PNG so DF tints by material)
+Reactions (Lua) still reference the static item ids. Reuse a vanilla item subtype when one exists
+(free sprite). See creationforge_military for a full worked example (weapons/armor + tile page).
+
 Load order & worldgen
 ----------------------
 Enable base + add-on(s) at world generation, base first (REQUIRES_ID_BEFORE_ME enforces it).
 Cannot be added to an existing world.
 
-Worked example: see the creationforge_sandbox pack (grand vault + great cistern).
+Worked example: see the creationforge_sandbox pack (reactions) and creationforge_military (static
+items + sprites).
 
 Public domain.
