@@ -8,14 +8,8 @@
 -- declares its own "Toys" submenu. Requires the base mod.
 
 do_once.cf_toys = function()
-	-- 1) item definitions
-	local items = {}
-	local function toy(id, sg, pl)
-		items[#items+1] = "[ITEM_TOY:" .. id .. "]"
-		add_generated_info(items)
-		items[#items+1] = "[NAME:" .. sg .. ":" .. pl .. "]"
-		items[#items+1] = "[HARD_MAT]"
-	end
+	-- Item subtypes are defined statically in objects/item_creationforge_toys.txt
+	-- (required so DF's graphics loader can bind sprites). The TOYS table below drives reactions:
 	-- { id, article, singular, plural, id_word }
 	local TOYS = {
 		{ "CFY_TOY_SPINNINGTOP",  "a ", "spinning top", "spinning tops", "SPINNINGTOP" },
@@ -27,8 +21,6 @@ do_once.cf_toys = function()
 		{ "CFY_TOY_TOYSOLDIER",   "a ", "toy soldier",  "toy soldiers",  "TOYSOLDIER" },
 		{ "CFY_TOY_TOYSWORD",     "a ", "toy sword",    "toy swords",    "TOYSWORD" },
 	}
-	for _, t in ipairs(TOYS) do toy(t[1], t[3], t[4]) end
-	raws.register_items(items)
 
 	-- 2) reactions in this pack's own submenu
 	local out = {}

@@ -2,9 +2,8 @@ graphics_creationforge_items
 
 [OBJECT:GRAPHICS]
 
-# Sprites for the custom ITEM_TOOL_BOWL / ITEM_TOOL_PLATE defined in scripts/creationforge.lua.
-# Greyscale on tile page CF_ITEMS (2x1 grid, 32x32); DF tints by material. Without these the
-# tools fell back to their [TILE] CP437 glyph on the premium tileset. TOOL_GRAPHICS: PAGE:col:row:SUBTYPE.
+# Sprite for the custom ITEM_TOOL_PLATE (defined statically in objects/item_creationforge_items.txt
+# so this token resolves at graphics-load time). ITEM_TOOL_BOWL is a vanilla item and keeps its
+# vanilla sprite, so it is intentionally NOT overridden here. Greyscale on CF_ITEMS; DF tints by material.
 
-[TOOL_GRAPHICS:CF_ITEMS:0:0:ITEM_TOOL_BOWL]
 [TOOL_GRAPHICS:CF_ITEMS:1:0:ITEM_TOOL_PLATE]

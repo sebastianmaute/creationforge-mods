@@ -9,25 +9,8 @@
 -- Contract used: building id CREATION_FORGE. Ids namespaced CFD_. Base loaded first via REQUIRES_ID.
 
 do_once.cf_dining = function()
-	-- 1) Item definitions
-	local items = {}
-	local function itemdef(id, body)
-		items[#items+1] = "[ITEM_TOOL:" .. id .. "]"
-		add_generated_info(items)
-		for _, l in ipairs(body) do items[#items+1] = l end
-	end
-	-- cutlery (cosmetic, no TOOL_USE)
-	itemdef("CFD_TOOL_FORK",       { "[NAME:fork:forks]",               "[VALUE:5]", "[TILE:47]",  "[SIZE:50]", "[HARD_MAT]" })
-	itemdef("CFD_TOOL_SPOON",      { "[NAME:spoon:spoons]",             "[VALUE:5]", "[TILE:126]", "[SIZE:50]", "[HARD_MAT]" })
-	itemdef("CFD_TOOL_KNIFE",      { "[NAME:table knife:table knives]", "[VALUE:5]", "[TILE:45]",  "[SIZE:50]", "[HARD_MAT]" })
-	itemdef("CFD_TOOL_CHOPSTICKS", { "[NAME:chopsticks:chopsticks]",    "[VALUE:5]", "[TILE:61]",  "[SIZE:40]", "[HARD_MAT]" })
-	itemdef("CFD_TOOL_LADLE",      { "[NAME:ladle:ladles]",             "[VALUE:8]", "[TILE:106]", "[SIZE:80]", "[HARD_MAT]" })
-	-- serving vessels (functional containers)
-	itemdef("CFD_TOOL_TEAPOT",  { "[NAME:teapot:teapots]",   "[VALUE:15]", "[TILE:243]", "[SIZE:200]", "[TOOL_USE:LIQUID_CONTAINER]", "[CONTAINER_CAPACITY:5000]",  "[HARD_MAT]" })
-	itemdef("CFD_TOOL_TUREEN",  { "[NAME:tureen:tureens]",   "[VALUE:15]", "[TILE:247]", "[SIZE:300]", "[TOOL_USE:FOOD_STORAGE]", "[TOOL_USE:LIQUID_CONTAINER]", "[CONTAINER_CAPACITY:10000]", "[HARD_MAT]" })
-	itemdef("CFD_TOOL_PLATTER", { "[NAME:platter:platters]", "[VALUE:12]", "[TILE:111]", "[SIZE:150]", "[TOOL_USE:FOOD_STORAGE]", "[CONTAINER_CAPACITY:5000]", "[HARD_MAT]" })
-	itemdef("CFD_TOOL_EWER",    { "[NAME:ewer:ewers]",       "[VALUE:12]", "[TILE:244]", "[SIZE:180]", "[TOOL_USE:LIQUID_CONTAINER]", "[CONTAINER_CAPACITY:5000]", "[HARD_MAT]" })
-	raws.register_items(items)
+	-- Item subtypes are defined statically in objects/item_creationforge_dining.txt
+	-- (required so DF's graphics loader can bind sprites). Reactions that produce them:
 
 	-- 2) Reactions in the add-on's OWN submenu (declared on first use).
 	local out = {}

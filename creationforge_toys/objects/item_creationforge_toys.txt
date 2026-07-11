@@ -1,0 +1,35 @@
+item_creationforge_toys
+
+[OBJECT:ITEM]
+
+[ITEM_TOY:CFY_TOY_SPINNINGTOP]
+	[NAME:spinning top:spinning tops]
+	[HARD_MAT]
+
+[ITEM_TOY:CFY_TOY_KALEIDOSCOPE]
+	[NAME:kaleidoscope:kaleidoscopes]
+	[HARD_MAT]
+
+[ITEM_TOY:CFY_TOY_DOLL]
+	[NAME:doll:dolls]
+	[HARD_MAT]
+
+[ITEM_TOY:CFY_TOY_ROCKINGHORSE]
+	[NAME:rocking horse:rocking horses]
+	[HARD_MAT]
+
+[ITEM_TOY:CFY_TOY_MARBLES]
+	[NAME:marbles:marbles]
+	[HARD_MAT]
+
+[ITEM_TOY:CFY_TOY_YOYO]
+	[NAME:yo-yo:yo-yos]
+	[HARD_MAT]
+
+[ITEM_TOY:CFY_TOY_TOYSOLDIER]
+	[NAME:toy soldier:toy soldiers]
+	[HARD_MAT]
+
+[ITEM_TOY:CFY_TOY_TOYSWORD]
+	[NAME:toy sword:toy swords]
+	[HARD_MAT]

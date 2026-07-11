@@ -1,6 +1,6 @@
 [ID:creationforge_dining]
-[NUMERIC_VERSION:2]
-[DISPLAYED_VERSION:1.1]
+[NUMERIC_VERSION:3]
+[DISPLAYED_VERSION:1.2]
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
 [AUTHOR:Nevarion]
@@ -10,7 +10,7 @@
 [STEAM_TITLE:The Creation Forge - Dining Set]
 [STEAM_TAG:mod]
 [STEAM_TAG:cheat]
-[STEAM_CHANGELOG:1.1 - Add item sprites for all tableware (they rendered as a plain glyph on the graphical tileset). No stat or recipe changes.]
+[STEAM_CHANGELOG:Item sprites now display correctly - custom items are defined as static raws so DF's graphics loader can bind their sprites (Lua-registered items could not). No stat or recipe changes.]
 [STEAM_KEY_VALUE_TAG:mod:cheat]
 
 [REQUIRES_ID:creationforge]

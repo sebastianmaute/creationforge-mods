@@ -1,6 +1,6 @@
 [ID:creationforge]
-[NUMERIC_VERSION:8]
-[DISPLAYED_VERSION:80]
+[NUMERIC_VERSION:9]
+[DISPLAYED_VERSION:90]
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:6]
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:60]
 [AUTHOR:Nevarion]
@@ -10,7 +10,7 @@
 [STEAM_TITLE:The Creation Forge]
 [STEAM_TAG:mod]
 [STEAM_TAG:cheat]
-[STEAM_CHANGELOG:Add sprites for the custom bowl and plate tools (they rendered as a CP437 glyph on the graphical tileset). No recipe changes.]
+[STEAM_CHANGELOG:Item sprites now display correctly - custom items are defined as static raws so DF's graphics loader can bind their sprites (Lua-registered items could not). No stat or recipe changes.]
 [STEAM_KEY_VALUE_TAG:mod:cheat]
 [STEAM_FILE_ID:2898393468]
 

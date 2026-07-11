@@ -12,22 +12,8 @@
 -- Ids are namespaced (CFS_ = Creation Forge Sandbox) to avoid clashing with the base or other packs.
 
 do_once.cf_sandbox = function()
-	-- 1) Custom item definitions (DF has no oversized storage tool). Registered as item raws.
-	local items = {}
-	local function itemdef(id, body)
-		items[#items+1] = "[ITEM_TOOL:" .. id .. "]"
-		add_generated_info(items)
-		for _, l in ipairs(body) do items[#items+1] = l end
-	end
-	itemdef("CFS_TOOL_VAULT", {
-		"[NAME:grand vault:grand vaults]", "[VALUE:20]", "[TILE:127]", "[SIZE:600]",
-		"[TOOL_USE:FOOD_STORAGE]", "[CONTAINER_CAPACITY:1000000]", "[HARD_MAT]",
-	})
-	itemdef("CFS_TOOL_CISTERN", {
-		"[NAME:great cistern:great cisterns]", "[VALUE:20]", "[TILE:9]", "[SIZE:600]",
-		"[TOOL_USE:LIQUID_CONTAINER]", "[CONTAINER_CAPACITY:1000000]", "[HARD_MAT]",
-	})
-	raws.register_items(items)
+	-- Item subtypes are defined statically in objects/item_creationforge_sandbox.txt
+	-- (required so DF's graphics loader can bind sprites). Reactions that produce them:
 
 	-- 2) Reactions on the BASE workshop. Tiny self-contained emitter (base's emit{} is not in scope).
 	local out = {}

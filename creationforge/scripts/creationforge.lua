@@ -34,7 +34,8 @@ do_once.creationforge = function()
 		for _, l in ipairs(body) do items[#items+1] = l end
 	end
 	itemdef("ITEM_TOOL_BOWL",  { "[NAME:bowl:bowls]",  "[VALUE:5]", "[TILE:7]",   "[SIZE:100]", "[TOOL_USE:LIQUID_CONTAINER]", "[TOOL_USE:FOOD_STORAGE]", "[HARD_MAT]" })
-	itemdef("ITEM_TOOL_PLATE", { "[NAME:plate:plates]", "[VALUE:5]", "[TILE:250]", "[SIZE:60]",  "[TOOL_USE:FOOD_STORAGE]", "[HARD_MAT]" })
+	-- ITEM_TOOL_PLATE is custom -> defined statically in objects/item_creationforge_items.txt so DF's
+	-- graphics loader can bind its sprite. (BOWL is a vanilla item and keeps its vanilla sprite.)
 	raws.register_items(items)
 
 	local out = {}            -- accumulated reaction raw lines
