@@ -25,4 +25,4 @@ Validated: base + all 10 packs generate a world with zero Lua and raw errors (em
 Still to confirm in actual play: the Blocks submenu lists the palette and produces 100-stacks of the
 right colored blocks.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

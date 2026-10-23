@@ -27,4 +27,4 @@ category name/parent needed, and REQUIRES_ID_BEFORE_ME load order works.
 To re-test after changes: set debug_level > 0 in scripts/init.lua, generate a new world, read
 Dwarf Fortress/lualog.txt. Strip the debug line before publishing.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

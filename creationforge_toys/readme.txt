@@ -21,4 +21,4 @@ Testing - loads clean in-game (2026-06)
 Validated: base + all 10 packs generate a world with zero Lua and raw errors (empty errorlog).
 Still to confirm in actual play: the Toys submenu lists the reactions and toys are craftable.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

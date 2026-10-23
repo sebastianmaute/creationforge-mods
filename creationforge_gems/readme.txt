@@ -22,4 +22,4 @@ Validated: loads with zero Lua and raw errors (empty errorlog) - all 6 gem mater
 (frostgem color fixed CYAN -> AZURE). Still to confirm in actual play: the Rough/Cut gemstone menus
 list the new gems, and crafted gems have the right colors and can encrust.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

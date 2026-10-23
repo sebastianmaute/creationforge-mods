@@ -24,4 +24,4 @@ Validated: loads with zero Lua and raw errors (empty errorlog) - the plant raws 
 (no material/token complaints). Still to confirm in actual play: the Fantasy flora submenu lists the
 crops; plants + seeds are produced; the crops are plantable and brew into their drinks.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

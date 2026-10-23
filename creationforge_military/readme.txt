@@ -40,4 +40,4 @@ Still to confirm in actual play: the Exotic weapons / Exotic armor submenus list
 crafted weapons are equippable and usable in the military; armor is wearable; big weapons
 (greatsword, halberd) are wieldable by dwarves (else lower MINIMUM_SIZE).
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

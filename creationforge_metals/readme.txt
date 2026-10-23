@@ -29,4 +29,4 @@ Validated: loads with zero Lua and raw errors (empty errorlog) - all 5 inorganic
 Still to confirm in actual play: crafted bars/gear have the right names/colors and sane combat
 stats. Tune material properties to taste.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

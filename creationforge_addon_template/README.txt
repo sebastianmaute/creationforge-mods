@@ -39,4 +39,4 @@ Cannot be added to an existing world.
 Worked example: see the creationforge_sandbox pack (reactions) and creationforge_military (static
 items + sprites).
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

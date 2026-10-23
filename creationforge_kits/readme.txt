@@ -25,4 +25,4 @@ Validated: base + this pack generate a world with zero Lua and raw errors (empty
 Still to confirm in actual play: the Starter kits submenu lists the 3 kits and each yields the full
 bundle of items.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

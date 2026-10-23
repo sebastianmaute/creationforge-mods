@@ -36,4 +36,4 @@ ingested syndromes registered, and the DRINK-from-inorganic product raised no ra
 Still to confirm in actual play: a brewed barrel exists and is drinkable, dwarves drink it, and the
 buffs apply. Tune effect strength/duration to taste.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

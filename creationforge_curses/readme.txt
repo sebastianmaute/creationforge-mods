@@ -33,4 +33,4 @@ DRINK/POWDER_MISC products registered fine. Still to confirm in actual play: the
 lists the reactions; brews are drinkable and afflict the drinker; the venom powder is made. Tune
 severity to taste.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

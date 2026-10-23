@@ -20,6 +20,6 @@ See the [url=https://steamcommunity.com/workshop/filedetails/discussion/28983934
 
 [hr][/hr]
 
-This mod is public domain.
+This mod is licensed under the [url=https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12]EUPL-1.2[/url] (European Union Public Licence).
 
 The mod on [url=https://dffd.bay12games.com/file.php?id=16208]DFFD[/url]

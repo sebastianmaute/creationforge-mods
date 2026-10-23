@@ -24,4 +24,4 @@ lualog.txt) and worldgen completes. The debug_level line has been removed from i
 Still to confirm in actual play: trap components appear in the Traps submenu and install in weapon
 traps; ammo appears in Ammunition and is fired by crossbows / bows.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

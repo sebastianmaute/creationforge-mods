@@ -24,4 +24,4 @@ Validated: base + all 10 packs generate a world with zero Lua and raw errors (em
 Still to confirm in actual play: DF accepts the no-TOOL_USE cutlery and the reactions produce them
 (if not, give a benign use or switch to ITEM_TOY); the CFD_DINING submenu shows all 9 item groups.
 
-Public domain.
+Licensed under the EUPL-1.2 (European Union Public Licence).

@@ -51,3 +51,9 @@ worldgen. Full walkthrough — install paths, load order, enable, verify, troubl
 - Built for DF **vanilla** Lua modding (added experimentally v51.06, shipped v52.01) — **not**
   DFHack. Randomness uses DF's RNG (`trandom`/`pick_*`), never `math.random`.
 - `STEAM_FILE_ID` values in `info.txt` are public Workshop item ids.
+
+## License
+
+[EUPL-1.2](LICENSE) © Sebastian Maute (Nevarion). Versions published before 23 October 2026 on the Steam
+Workshop and DFFD were released into the public domain and stay that way; later versions are licensed under the EUPL-1.2.
+Dwarf Fortress is made by Bay 12 Games and Kitfox Games; this repository contains only the mods.
